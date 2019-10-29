@@ -10,6 +10,13 @@ let package = Package(
         .library(
             name: "objcTest",
             targets: ["objcTest"]),
+        .library(
+        name: "Epson",
+        targets: ["objcTest"]),
+        .library(
+        name: "libepos2",
+        targets: ["objcTest"]),
+        
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -24,10 +31,10 @@ let package = Package(
             dependencies: []),
         .target(
         name: "Epson",
-        dependencies: ["objcTest"]),
+        dependencies: []),
         .target(
         name: "libepos2",
-        dependencies: ["objcTest"]),
+        dependencies: []),
         
         .testTarget(
             name: "objcTestTests",
