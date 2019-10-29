@@ -22,6 +22,13 @@ let package = Package(
         .target(
             name: "objcTest",
             dependencies: []),
+        .target(
+        name: "Epson",
+        dependencies: ["objcTest"]),
+        .target(
+        name: "libepos2",
+        dependencies: ["objcTest"]),
+        
         .testTarget(
             name: "objcTestTests",
             dependencies: ["objcTest"]),
