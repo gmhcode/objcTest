@@ -7,6 +7,6 @@
 //[system]
 module objcTest {
     header "Epson.h"
-    //link "libepos2"
-    //export *
+    link "libepos2"
+    export *
 }
