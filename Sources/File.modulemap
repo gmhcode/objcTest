@@ -5,8 +5,8 @@
 //  Created by Greg Hughes on 10/31/19.
 //
 
-module libpos2 [system] {
+module libepos2 [system] {
     header "Epson.h"
-    link "libpos2"
+    link "libepos2"
     export *
 }
