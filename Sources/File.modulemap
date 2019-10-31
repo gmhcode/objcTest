@@ -5,8 +5,8 @@
 //  Created by Greg Hughes on 10/31/19.
 //
 //[system]
-module objcTest [system] {
+module objcTest [system]{
     header "Epson.h"
-    link "libepos2"
+    link "/Users/greghughes/Desktop/objcTest/Sources/Epson/libepos2.a"
     export *
 }
