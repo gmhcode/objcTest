@@ -1,0 +1,12 @@
+//
+//  File.swift
+//  
+//
+//  Created by Greg Hughes on 10/31/19.
+//
+
+module OpenSSL {
+    umbrella header "Epson.h"
+    export *
+ 
+}

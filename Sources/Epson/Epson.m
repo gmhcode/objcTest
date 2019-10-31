@@ -6,3 +6,5 @@
 //
 
 #include "Epson.h"
+
+//Epos2Printer *printer = [Epos2Printer new];
