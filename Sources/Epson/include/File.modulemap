@@ -5,8 +5,8 @@
 //  Created by Greg Hughes on 10/31/19.
 //
 
-module OpenSSL {
-    umbrella header "Epson.h"
+module libpos2 [system] {
+    header "Epson.h"
+    link "libpos2"
     export *
- 
 }
